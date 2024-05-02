@@ -8,17 +8,17 @@
         name: 'lifeCycle',
         data() {
             return {
-                nome: "Ainda não sei"
+                nome: "Ainda não sei teste"
             }
         },
         created(){
            setTimeout(() => {
-            this.nome = "Matheus" 
+            this.nome = "Matheus teste" 
            }, 1000);
              
         },
         mounted(){
-            this.nome = "Pedro"
+            this.nome = "teste"
         }
     }
 </script>

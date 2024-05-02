@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Olá VUE!</h1>
+        <h1>Olá VUE! TESTE</h1>
         <p>Meu nome é {{ nome }} </p>
     </div>
     
@@ -11,7 +11,7 @@
         name: 'PrimeiroComponente',
         data(){
             return {
-                nome: "Thiago"
+                nome: "Thiago teste"
             }
         }
     }
